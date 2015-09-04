@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Reserva | Igor Gonçalves]]></title>
+  <link href="http://www.igorgoncalves.me/blog/categories/reserva/atom.xml" rel="self"/>
+  <link href="http://www.igorgoncalves.me/"/>
+  <updated>2015-09-04T11:20:21-03:00</updated>
+  <id>http://www.igorgoncalves.me/</id>
+  <author>
+    <name><![CDATA[Igor Gonçalves]]></name>
+    <email><![CDATA[igor_goncalves@live.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Olá a Todos!]]></title>
+    <link href="http://www.igorgoncalves.me/blog/2015/07/18/ola-a-todos/"/>
+    <updated>2015-07-18T22:59:56-03:00</updated>
+    <id>http://www.igorgoncalves.me/blog/2015/07/18/ola-a-todos</id>
+    <content type="html"><![CDATA[<p><img class="responsive-img <a" src="href="http://placekitten.com/890/280">http://placekitten.com/890/280</a>"></p>
+
+<p>You’ll find this post in your <code>_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code>jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+]]></content>
+  </entry>
+  
+</feed>

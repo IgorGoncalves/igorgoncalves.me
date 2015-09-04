@@ -1,0 +1,19 @@
+<div class="card">
+
+    <span class="card-title"><h3 class="entry-title"><a>Recent Posts</h3></a></span>
+
+    <div class="card-content">
+
+
+<div class="collection">
+            {% for post in site.posts limit: site.recent_posts %}
+
+                <a href="{{ root_url }}{{ post.url }}" class="collection-item">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %} </a>
+
+            {% endfor %}
+
+
+        </div>
+    </div>
+
+</div>

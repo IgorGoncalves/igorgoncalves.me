@@ -1,0 +1,35 @@
+
+ <div class="navbar-fixed">
+   <nav class="top-nav">
+    <div class="nav-wrapper grey darken-4">
+     <div class="col m2 s5">
+      <a class="brand-logo" href="{{ site.baseurl }}/"><img src="{{ "/images/Logo.png " | prepend: site.baseurl }} " alt="" class="logo"></a>
+    </div>
+     <div class="col m9 ">
+      <ul id="nav-mobile" class="right hide-on-med-and-down" data-subscription="rss{% if site.subscribe_email %} email{% endif %}">
+         {% if site.subscribe_email %}
+            <li><a href="{{ site.subscribe_email }}" rel="subscribe-email" title="subscribe via email"><i class="fa fa-at fa-2x"></i></a></li>
+          {% endif %}
+
+          <li>
+          {% if site.simple_search %}
+        <form action="{{ site.simple_search }}" method="get" class="navbar-form navbar-left" role="search">
+            <div class="input-field">
+                <input type="hidden" name="sitesearch" value="{{ site.url | shorthand_url }}">
+                <input id="search" type="search" name="q" results="0" required>
+                <label for="search">
+                <i class="material-icons">search</i>
+                </label>
+            </div>
+        </form>
+        {% endif %}
+        </li>
+              <li><a href="{{ site.subscribe_rss }}" rel="subscribe-rss" title="subscribe via RSS"><i class="fa fa-rss fa-2x"></i></a></li>
+        <li>
+        {% include custom/navigation.html %}
+        </li>
+      </ul>
+      </div>
+    </div>
+  </nav>
+</div>

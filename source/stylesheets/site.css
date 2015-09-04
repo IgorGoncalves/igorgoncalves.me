@@ -1,0 +1,170 @@
+.logo {
+    height: 100px;
+    display: table-cell;
+    float: left;
+    text-align: center;
+    margin-left: 20px;
+}
+
+body {
+    font-family: 'Roboto',
+    sans-serif;
+}
+.page{
+   background-image: url(http://images2.fanpop.com/images/photos/7000000/Space-Art-Wallpaper-space-7076476-1920-1200.jpg);
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+
+
+}
+
+.text-white{
+    color:white !important;
+
+}
+
+.image-post{
+
+    max-height: 200px !important;
+    height: auto !important;
+    weight: auto !important;
+
+}
+
+.container{
+    margin-top: -20px;
+}
+
+.bios{
+    width : 250px;
+
+}
+
+.avatar {
+    max-height: 175px;
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+    margin-top: 10px;
+}
+.title-site{
+    font-size: 3em;
+}
+
+.collection-item{
+    padding: 0px !important;
+}
+
+.collection{
+    background-color: #2980b9 !important;
+      padding: 0px !important;
+
+}
+
+.title-article {
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    background: #2980b9;
+    padding: 10px;
+}
+
+
+.main {
+    height:100%; /* IE6: treaded as min-height*/
+    min-height:100%; /* real browsers */
+    height:auto !important;
+
+}
+.title{
+    color: #ffffff;
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: bold;
+}
+
+.clicker {
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    background: #2980b9;
+    padding: 10px;
+}
+
+.clicker:hover {
+    background: #ffffff;
+}
+
+.space-left{
+    margin-left: 20px;
+}
+
+.side {
+    background-color: #2980b9;
+    padding:25px;
+    color:#efefef;
+    display: block;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+
+.banner-post{
+    min-height: 150px;
+
+
+}
+
+
+
+
+h3 {
+color:white;
+border-bottom:1px solid #1abc9c;
+margin-left: 10px;
+
+}
+
+
+h3 > a:link, a:visited {
+    text-decoration: none
+    }
+h3 > a:hover {
+
+    color:gray;
+    }
+a:active {
+    text-decoration: none
+    }
+
+
+.img-circle {
+    border-radius: 50%;
+}
+
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.sticky:before,
+.sticky:after {
+    content: '';
+    display: table;
+}
+
+
+
+
+
