@@ -7,62 +7,82 @@
 }
 
 body {
-    font-family: 'Roboto',
-    sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
-.page{
-   background-image: url(http://images2.fanpop.com/images/photos/7000000/Space-Art-Wallpaper-space-7076476-1920-1200.jpg);
-    background-repeat:no-repeat;
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
-    -o-background-size:cover;
-    background-size:cover;
-    background-position:center;
 
+.blog-index{
+   padding: 20px;
 
 }
 
-.text-white{
-    color:white !important;
 
+
+
+.embed-video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16/9 ratio */
+    padding-top: 30px; /* IE6 workaround*/
+    height: 0;
+    overflow: hidden;
 }
 
-.image-post{
+.embed-video-container iframe,
+.embed-video-container object,
+.embed-video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
+.page {
+    background-image: url(http://images2.fanpop.com/images/photos/7000000/Space-Art-Wallpaper-space-7076476-1920-1200.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.text-white {
+    color: white !important;
+}
+
+.image-post {
     max-height: 200px !important;
     height: auto !important;
     weight: auto !important;
-
 }
 
-.container{
+.container {
     margin-top: -20px;
 }
 
-.bios{
-    width : 250px;
-
+.bios {
+    width: 250px;
 }
 
 .avatar {
     max-height: 175px;
-    display:table-cell;
-    vertical-align:middle;
-    text-align:center;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
     margin-top: 10px;
 }
-.title-site{
+
+.title-site {
     font-size: 3em;
 }
 
-.collection-item{
+.collection-item {
     padding: 0px !important;
 }
 
-.collection{
+.collection {
     background-color: #2980b9 !important;
-      padding: 0px !important;
-
+    padding: 0px !important;
 }
 
 .title-article {
@@ -74,14 +94,23 @@ body {
     padding: 10px;
 }
 
-
 .main {
-    height:100%; /* IE6: treaded as min-height*/
-    min-height:100%; /* real browsers */
-    height:auto !important;
+    height: 100%;
+    /* IE6: treaded as min-height*/
 
+    min-height: 100%;
+    /* real browsers */
+
+    height: auto !important;
 }
-.title{
+
+.left-fixed {
+    position: fixed;
+    padding: 2em;
+    top: 0%;
+}
+
+.title {
     color: #ffffff;
     font-family: 'Luckiest Guy', cursive;
     font-weight: bold;
@@ -93,6 +122,7 @@ body {
     -webkit-transition: all .2s ease-in;
     transition: all .2s ease-in;
     background: #2980b9;
+    color: black;
     padding: 10px;
 }
 
@@ -100,15 +130,24 @@ body {
     background: #ffffff;
 }
 
-.space-left{
+.space-left {
     margin-left: 20px;
 }
 
 .side {
     background-color: #2980b9;
-    padding:25px;
-    color:#efefef;
+    padding: 25px;
+    color: #efefef;
     display: block;
+}
+
+.side-mobile {
+    background-color: #2980b9;
+    padding: 25px;
+    color: #efefef;
+    display: block;
+    margin-top: 30px;
+    width: 100%;
 }
 
 .vcenter {
@@ -117,40 +156,31 @@ body {
     float: none;
 }
 
-
-.banner-post{
+.banner-post {
     min-height: 150px;
-
-
 }
-
-
-
 
 h3 {
-color:white;
-border-bottom:1px solid #1abc9c;
-margin-left: 10px;
-
+    color: white;
+    margin-left: 10px;
 }
 
-
-h3 > a:link, a:visited {
+h3 > a:link,
+a:visited {
     text-decoration: none
-    }
-h3 > a:hover {
+}
 
-    color:gray;
-    }
+h3 > a:hover {
+    color: gray;
+}
+
 a:active {
     text-decoration: none
-    }
-
+}
 
 .img-circle {
     border-radius: 50%;
 }
-
 
 .sticky {
     position: -webkit-sticky;
@@ -163,8 +193,3 @@ a:active {
     content: '';
     display: table;
 }
-
-
-
-
-

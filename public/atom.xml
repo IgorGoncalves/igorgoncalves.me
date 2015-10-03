@@ -4,7 +4,7 @@
   <title><![CDATA[Igor Gonçalves]]></title>
   <link href="http://www.igorgoncalves.me/atom.xml" rel="self"/>
   <link href="http://www.igorgoncalves.me/"/>
-  <updated>2015-09-04T11:20:21-03:00</updated>
+  <updated>2015-10-02T22:33:32-03:00</updated>
   <id>http://www.igorgoncalves.me/</id>
   <author>
     <name><![CDATA[Igor Gonçalves]]></name>
@@ -14,48 +14,30 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Terceiro Post]]></title>
-    <link href="http://www.igorgoncalves.me/blog/2015/08/01/terceiro-post/"/>
-    <updated>2015-08-01T19:23:29-03:00</updated>
-    <id>http://www.igorgoncalves.me/blog/2015/08/01/terceiro-post</id>
-    <content type="html"><![CDATA[<p>Primeiro eu queria cumprimentar os internautas. -Oi Internautas! Depois dizer que o meio ambiente é sem dúvida nenhuma uma ameaça ao desenvolvimento sustentável. E isso significa que é uma ameaça pro futuro do nosso planeta e dos nossos países. O desemprego beira 20%, ou seja, 1 em cada 4 portugueses.</p>
+    <title type="html"><![CDATA[Precious Plastic - Um Projeto OpenSource Para Ajudar a Salvar O Mundo]]></title>
+    <link href="http://www.igorgoncalves.me/blog/2015/09/29/plastic-um-projeto-opensource-para-ajudar-a-salvar-o-mundo/"/>
+    <updated>2015-09-29T12:57:14-03:00</updated>
+    <id>http://www.igorgoncalves.me/blog/2015/09/29/plastic-um-projeto-opensource-para-ajudar-a-salvar-o-mundo</id>
+    <content type="html"><![CDATA[<p>Durante minha busca por projetos inovadores que tem o intuito de resolver algum problema no nosso mundo de forma colaborativa encontrei o site de
+<a href="https://davehakkens.nl/">Dave Hakkens</a>, engenheiro e designer neerlandes que desenvolve diversos projetos OpenSource para resolver de problemas simples do seu dia a dia para novas formas de gerar renda. Um desses projetos me chamou muito a atenção, chamado [Precious Plastic], a ideia principal é desenhar projetos de máquinas utilizadas na industria da reciclagem de plástico que podem ser replicadas facilmente apenas seguindo um passo-a-passo feito por uma comunidade.</p>
 
-<p>No meu xinélo da humildade eu gostaria muito de ver o Neymar e o Ganso. Por que eu acho que&hellip;. 11 entre 10 brasileiros gostariam. Você veja, eu já vi, parei de ver. Voltei a ver, e acho que o Neymar e o Ganso têm essa capacidade de fazer a gente olhar.</p>
+<p>A ideia surgiu após analisar o clico de vida do plástico atualmente, após o descarte dos produtos, <a href="http://www.mma.gov.br/destaques/item/9411">cerca de 80% dos plásticos não chegam aos centros de reciclagem</a>, 10% é incinerado e apenas 10% se tornam novos produtos. A falta de centros de reciclagem e uma fraca cultura de coleta seletiva são alguns dos principais problemas nessa cadeia fábrica-mercado-consumidor-reciclagem.</p>
 
-<p>Todos as descrições das pessoas são sobre a humanidade do atendimento, a pessoa pega no pulso, examina, olha com carinho. Então eu acho que vai ter outra coisa, que os médicos cubanos trouxeram pro brasil, um alto grau de humanidade.</p>
-
-<p>A população ela precisa da Zona Franca de Manaus, porque na Zona franca de Manaus, não é uma zona de exportação, é uma zona para o Brasil. Portanto ela tem um objetivo, ela evita o desmatamento, que é altamente lucravito. Derrubar arvores da natureza é muito lucrativo!</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Segundo Post]]></title>
-    <link href="http://www.igorgoncalves.me/blog/2015/07/19/segundo-post/"/>
-    <updated>2015-07-19T11:06:55-03:00</updated>
-    <id>http://www.igorgoncalves.me/blog/2015/07/19/segundo-post</id>
-    <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sapien enim, accumsan et nunc ornare, mattis convallis felis. Fusce euismod, metus a consectetur imperdiet, tortor purus pulvinar lectus, non convallis est eros id nunc. Sed eget scelerisque eros. Mauris faucibus scelerisque ligula, at maximus purus dapibus ac. Morbi id sapien id orci aliquet pellentesque. Curabitur sed orci non risus gravida lacinia. Nulla ullamcorper eleifend metus id efficitur. Phasellus at orci a augue euismod lobortis a vel erat. Duis eleifend neque neque, eget tincidunt dui imperdiet efficitur. Fusce et ligula eget erat tempus sodales nec vestibulum leo.</p>
+<p><img class="responsive-img" src="http://www.preciousplastic.com/site/wp-content/uploads/2014/05/plastic_infrastructure-1200x679.jpg" title="&#34;Ciclo de vida do plástico (*font: preciousplastic.com*)&#34;" alt="&#34;Ciclo de vida do plástico (*font: preciousplastic.com*)&#34;"></p>
 
 <!--break-->
 
 
-<p>Praesent non porta nunc. Etiam fermentum laoreet nulla, placerat sollicitudin elit aliquet non. Cras interdum accumsan blandit. Sed vel ligula eros. Nulla in nulla eu ligula eleifend convallis. Nam fermentum elit magna, vel mollis mi sodales quis. Aliquam at dapibus magna. Aenean non consectetur tortor, sit amet placerat diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec vitae sodales dui, nec tincidunt velit. Cras elit lacus, ullamcorper nec tempus ut, accumsan vel augue. Cras sed egestas lorem, et posuere justo.</p>
+<blockquote><p><em>Plastic can easily be recycled. It needs relative low temperatures and pressures. Look around and you’ll notice plastic waste is everywhere around us. We just need to sort it and have tools to turn it into new things. (<strong>Precious Plastic - About</strong>)</em></p></blockquote>
 
-<p>Mauris vehicula tempus nisi, ac ultrices sem. Aliquam interdum nisl nunc, non tristique tortor porttitor ut. Aenean vitae est sagittis justo dignissim fringilla. Curabitur tortor sem, pellentesque quis vulputate id, porta id mauris. Maecenas at varius tellus. Vestibulum eget mi elementum, convallis mi vel, placerat ante. Duis vitae est ornare, tempus orci vel, elementum ligula.</p>
+<p>Como diminuir a distância entre aqueles que descartam com aqueles que querem reciclar? <strong>Trazer o centro de reciclagem para seu bairro!</strong> O projeto Precious Plastic oferece soluções para que isso seja possível, a formação de núcleos autogeridos de reciclagem dentro de cada bairro ou quarteirão dando aos cidadãos daquela região o poder de reciclar seu próprio lixo.</p>
 
-<p>Mauris eu lacinia urna. Nam lectus libero, molestie vitae mattis a, tempor nec urna. Praesent tellus justo, ultricies at turpis in, interdum ornare metus. Nullam ut diam leo. In turpis tortor, rutrum at tortor luctus, eleifend pretium justo. Vivamus laoreet suscipit tellus et consectetur. In id fringilla justo, sed accumsan risus. Suspendisse elit felis, convallis a lectus in, porta dapibus ligula. Donec et vehicula ex. Ut pulvinar sagittis dignissim. Nulla ut sapien rhoncus est vestibulum malesuada. Quisque sed diam luctus, malesuada dolor ac, sagittis nulla. Maecenas fringilla lacus sed nisi interdum auctor. Sed ut tincidunt justo, ac vestibulum erat. Vestibulum mattis tellus lectus, quis vestibulum diam consectetur molestie. Suspendisse et risus vitae leo viverra ullamcorper rutrum vitae ligula.</p>
+<p>O projeto tem 3 máquinas em fases de teste, todas usam técnicas parecidas com as utilizadas na indústria como extrusão, rotacional e injeção. Essas máquinas foram projetas por uma comunidade de engenheiros, ambientalistas, químicos e muitos outros para que pudessem ser replicadas de forma barata e mais simples possível. Após materiais com garrafas e embalagens plásticas serem picadas até se tornar algo parecido com um granulado, o plástico é levado a uma das 3 máquinas que com a ajuda de moldes metálicos dão vida a novas peças como brinquedos, itens de decoração e filamentos para impressoras 3D. No video abaixo é possível ver o funcionamento das máquinas.</p>
 
-<p>Integer fermentum libero a velit elementum, eu rutrum eros cursus. Ut luctus fermentum lacus, at cursus nisl bibendum sed. Donec urna risus, sodales eget varius ut, convallis quis odio. Morbi sit amet semper libero. Phasellus a augue non erat fringilla bibendum ac at tellus. Maecenas varius fringilla mattis. Vivamus vestibulum ex ac sem hendrerit, a sagittis tortor aliquet. Nunc quis ligula a lectus rhoncus scelerisque. Maecenas quis orci suscipit tortor lobortis tristique. Vestibulum id est dignissim, sodales elit vel, lacinia lectus. Maecenas dui tortor, tempor eu facilisis vitae, viverra quis mauris. Ut vehicula mauris volutpat ante eleifend semper. Nam efficitur convallis rutrum.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Olá a Todos!]]></title>
-    <link href="http://www.igorgoncalves.me/blog/2015/07/18/ola-a-todos/"/>
-    <updated>2015-07-18T22:59:56-03:00</updated>
-    <id>http://www.igorgoncalves.me/blog/2015/07/18/ola-a-todos</id>
-    <content type="html"><![CDATA[<p><img class="responsive-img" src="http://placekitten.com/890/280"></p>
+<div class="embed-video-container"><br/> <iframe src="//www.youtube.com/embed/WwUPX5Sqi1Y" allowfullscreen></iframe><br/> </div>
 
-<p>You’ll find this post in your <code>_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code>jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>Assim, o Precious Plastic se destaca por entregar nas mãos das pessoas a possibilidade de reciclar seu  próprio lixo e ainda gerar uma nova fonte de renda ao se vender os novos produtos gerados ao fim do processo de reciclagem. Iniciativas como essa mostram o poder da colaboração que a internet proporciona e como a tecnologia pode resolver problemas ambientais, políticos e econômicos. Que tal agora você também se envolver em uma comunidade e apoiar um projeto para ajudar salvar o mundo?</p>
 ]]></content>
   </entry>
   

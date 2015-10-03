@@ -1,4 +1,1 @@
-User-agent: *
-Disallow: 
-
-Sitemap: http://www.igorgoncalves.me/sitemap.xml 
+User-agent: * Disallow:Sitemap: http://www.igorgoncalves.me/sitemap.xml

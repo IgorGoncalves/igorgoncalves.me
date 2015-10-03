@@ -1,16 +1,14 @@
-<!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-
 
 <!-- Social media content metadata -->
 {% if site.facebook_app_id %}
-<meta property="fb:admins" content="{{ site.facebook_app_id }}" />
-<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+<meta property="fb:app_id" content="{{ site.facebook_app_id }}" />
+<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ page.title }}{% endif %}" />
 <meta property="og:site_name" content="{{ site.title }}" />
-<meta property="og:url" content="{% if canonical %}{{ canonical }}{% else %}{{ site.url }}{% endif %}/" />
-<meta property="og:description" content="{{ description | strip_html | condense_spaces | truncate:200 }}" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="{% if canonical %}{{ canonical }}{% else %}{{ site.url }}{% endif %}" />
+<meta property="og:description" content="{{ page.description | strip_html | condense_spaces | truncate:200 }}" />
 <meta property="og:author" content="{{ site.facebook_page }}" />
+
 {% if page.facebook.image %}<meta property="og:image" content="{{ page.facebook.image }}" />{% endif %}
 {% endif %}
 {% if site.twitter_user %}

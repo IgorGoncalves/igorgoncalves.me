@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://www.igorgoncalves.me/blog/2015/08/01/terceiro-post/</loc>
-    <lastmod>2015-08-01T19:23:29-03:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.igorgoncalves.me/blog/2015/07/19/segundo-post/</loc>
-    <lastmod>2015-07-19T11:06:55-03:00</lastmod>
-  </url>
-  <url>
-    <loc>http://www.igorgoncalves.me/blog/2015/07/18/ola-a-todos/</loc>
-    <lastmod>2015-07-18T22:59:56-03:00</lastmod>
+    <loc>http://www.igorgoncalves.me/blog/2015/09/29/plastic-um-projeto-opensource-para-ajudar-a-salvar-o-mundo/</loc>
+    <lastmod>2015-09-29T12:57:14-03:00</lastmod>
   </url>
   <url>
     <loc>http://www.igorgoncalves.me/</loc>
@@ -19,10 +11,10 @@
     <loc>http://www.igorgoncalves.me/blog/archives/</loc>
   </url>
   <url>
-    <loc>http://www.igorgoncalves.me/blog/categories/reserva/</loc>
+    <loc>http://www.igorgoncalves.me/blog/categories/opensource/</loc>
   </url>
   <url>
-    <loc>http://www.igorgoncalves.me/blog/categories/politica/</loc>
+    <loc>http://www.igorgoncalves.me/blog/categories/social/</loc>
   </url>
   <url>
     <loc>http://www.igorgoncalves.me/public/index.html</loc>

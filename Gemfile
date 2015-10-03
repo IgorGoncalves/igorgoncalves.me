@@ -15,4 +15,5 @@ group :development do
   gem 'stringex', '~> 1.4.0'
 end
 
+gem 'jekyll-press'
 gem 'sinatra', '~> 1.4.2'
