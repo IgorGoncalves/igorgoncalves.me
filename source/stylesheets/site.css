@@ -15,9 +15,6 @@ body {
 
 }
 
-
-
-
 .embed-video-container {
     position: relative;
     padding-bottom: 56.25%; /* 16/9 ratio */
@@ -68,7 +65,7 @@ body {
     max-height: 175px;
     display: table-cell;
     vertical-align: middle;
-    text-align: center;
+
     margin-top: 10px;
 }
 
@@ -86,10 +83,6 @@ body {
 }
 
 .title-article {
-    -moz-transition: all .2s ease-in;
-    -o-transition: all .2s ease-in;
-    -webkit-transition: all .2s ease-in;
-    transition: all .2s ease-in;
     background: #2980b9;
     padding: 10px;
 }
@@ -117,10 +110,6 @@ body {
 }
 
 .clicker {
-    -moz-transition: all .2s ease-in;
-    -o-transition: all .2s ease-in;
-    -webkit-transition: all .2s ease-in;
-    transition: all .2s ease-in;
     background: #2980b9;
     color: black;
     padding: 10px;
@@ -142,12 +131,12 @@ body {
 }
 
 .side-mobile {
-    background-color: #2980b9;
-    padding: 25px;
-    color: #efefef;
-    display: block;
-    margin-top: 30px;
-    width: 100%;
+    background-color: #2980b9 !important;
+    color: #efefef !important;
+    display: block !important;
+    margin-top: 30px !important;
+    width: 100% !important;
+
 }
 
 .vcenter {
@@ -163,6 +152,10 @@ body {
 h3 {
     color: white;
     margin-left: 10px;
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    transition: all .3s ease-in;
 }
 
 h3 > a:link,

@@ -17,18 +17,18 @@ layout: default
         <div class="banner-post" style="background-color: #{{ post.colour }};  !important;">
         </div>
             <span class="card-title">
-                <h3 class="entry-title" >
+                <h4>
                 {% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}
-                </h3>
+                </h4>
             </span>
         </div>
         </a>
         {% else %}
 
         <span class="card-title">
-                <h3 class="entry-title">
+                <h4 class="entry-title">
                 <a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a>
-                </h3>
+                </h4>
             </span>
         {% endif %}
 
@@ -57,8 +57,6 @@ layout: default
           </div>
         </div>
       </div>
-
-
 
 
 

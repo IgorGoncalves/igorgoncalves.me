@@ -4,7 +4,7 @@
   <title><![CDATA[Igor Gonçalves]]></title>
   <link href="http://www.igorgoncalves.me/atom.xml" rel="self"/>
   <link href="http://www.igorgoncalves.me/"/>
-  <updated>2015-10-02T22:33:32-03:00</updated>
+  <updated>2015-10-20T00:03:05-03:00</updated>
   <id>http://www.igorgoncalves.me/</id>
   <author>
     <name><![CDATA[Igor Gonçalves]]></name>
@@ -18,10 +18,10 @@
     <link href="http://www.igorgoncalves.me/blog/2015/09/29/plastic-um-projeto-opensource-para-ajudar-a-salvar-o-mundo/"/>
     <updated>2015-09-29T12:57:14-03:00</updated>
     <id>http://www.igorgoncalves.me/blog/2015/09/29/plastic-um-projeto-opensource-para-ajudar-a-salvar-o-mundo</id>
-    <content type="html"><![CDATA[<p>Durante minha busca por projetos inovadores que tem o intuito de resolver algum problema no nosso mundo de forma colaborativa encontrei o site de
-<a href="https://davehakkens.nl/">Dave Hakkens</a>, engenheiro e designer neerlandes que desenvolve diversos projetos OpenSource para resolver de problemas simples do seu dia a dia para novas formas de gerar renda. Um desses projetos me chamou muito a atenção, chamado [Precious Plastic], a ideia principal é desenhar projetos de máquinas utilizadas na industria da reciclagem de plástico que podem ser replicadas facilmente apenas seguindo um passo-a-passo feito por uma comunidade.</p>
+    <content type="html"><![CDATA[<p>Durante minha busca por projetos inovadores que têm o intuito de resolver algum problema no nosso mundo de forma colaborativa encontrei o site de
+<a href="https://davehakkens.nl/">Dave Hakkens</a>, engenheiro e designer neerlandes que desenvolve diversos projetos OpenSource para a solução de problemas simples do seu dia-a-dia utilizando novas formas de gerar renda. Um desses projetos me chamou muito a atenção: o Precious Plastic. A ideia principal é desenhar projetos de máquinas utilizadas na indústria da reciclagem de plástico que podem ser replicadas facilmente apenas seguindo um passo-a-passo feito por uma comunidade.</p>
 
-<p>A ideia surgiu após analisar o clico de vida do plástico atualmente, após o descarte dos produtos, <a href="http://www.mma.gov.br/destaques/item/9411">cerca de 80% dos plásticos não chegam aos centros de reciclagem</a>, 10% é incinerado e apenas 10% se tornam novos produtos. A falta de centros de reciclagem e uma fraca cultura de coleta seletiva são alguns dos principais problemas nessa cadeia fábrica-mercado-consumidor-reciclagem.</p>
+<p>A ideia surgiu após a analise do clico de vida do plástico. Atualmente, após o descarte dos produtos, <a href="http://www.mma.gov.br/destaques/item/9411">cerca de 80% dos plásticos não chegam aos centros de reciclagem</a>, 10% é incinerado e apenas 10% se tornam novos produtos. A falta de centros de reciclagem e uma fraca cultura de coleta seletiva são alguns dos principais problemas nessa cadeia fábrica-mercado-consumidor-reciclagem.</p>
 
 <p><img class="responsive-img" src="http://www.preciousplastic.com/site/wp-content/uploads/2014/05/plastic_infrastructure-1200x679.jpg" title="&#34;Ciclo de vida do plástico (*font: preciousplastic.com*)&#34;" alt="&#34;Ciclo de vida do plástico (*font: preciousplastic.com*)&#34;"></p>
 
@@ -30,14 +30,14 @@
 
 <blockquote><p><em>Plastic can easily be recycled. It needs relative low temperatures and pressures. Look around and you’ll notice plastic waste is everywhere around us. We just need to sort it and have tools to turn it into new things. (<strong>Precious Plastic - About</strong>)</em></p></blockquote>
 
-<p>Como diminuir a distância entre aqueles que descartam com aqueles que querem reciclar? <strong>Trazer o centro de reciclagem para seu bairro!</strong> O projeto Precious Plastic oferece soluções para que isso seja possível, a formação de núcleos autogeridos de reciclagem dentro de cada bairro ou quarteirão dando aos cidadãos daquela região o poder de reciclar seu próprio lixo.</p>
+<p>Como diminuir a distância entre aqueles que descartam com aqueles que querem reciclar? Trazer o centro de reciclagem para seu bairro! O projeto Precious Plastic oferece soluções para que isso seja possível através da formação de núcleos autogeridos de reciclagem dentro de cada bairro ou quarteirão dando aos cidadãos daquela região o poder de reciclar seu próprio lixo.</p>
 
-<p>O projeto tem 3 máquinas em fases de teste, todas usam técnicas parecidas com as utilizadas na indústria como extrusão, rotacional e injeção. Essas máquinas foram projetas por uma comunidade de engenheiros, ambientalistas, químicos e muitos outros para que pudessem ser replicadas de forma barata e mais simples possível. Após materiais com garrafas e embalagens plásticas serem picadas até se tornar algo parecido com um granulado, o plástico é levado a uma das 3 máquinas que com a ajuda de moldes metálicos dão vida a novas peças como brinquedos, itens de decoração e filamentos para impressoras 3D. No video abaixo é possível ver o funcionamento das máquinas.</p>
+<p>O projeto tem três máquinas em fases de teste, e todas usam técnicas parecidas com as utilizadas na indústria como extrusão, rotacional e injeção. Essas máquinas foram projetas por uma comunidade de engenheiros, ambientalistas, químicos e muitos outros para que pudessem ser replicadas de forma barata e extremamente mais simples. Após materiais com garrafas e embalagens plásticas serem picadas até se tornarem algo parecido com um granulado, o plástico é levado a uma das três máquinas que com a ajuda de moldes metálicos dão vida a novas peças como brinquedos, itens de decoração e filamentos para impressoras 3D. No vídeo abaixo é possível ver o funcionamento das máquinas.</p>
 
 <div class="embed-video-container"><br/> <iframe src="//www.youtube.com/embed/WwUPX5Sqi1Y" allowfullscreen></iframe><br/> </div>
 
 
-<p>Assim, o Precious Plastic se destaca por entregar nas mãos das pessoas a possibilidade de reciclar seu  próprio lixo e ainda gerar uma nova fonte de renda ao se vender os novos produtos gerados ao fim do processo de reciclagem. Iniciativas como essa mostram o poder da colaboração que a internet proporciona e como a tecnologia pode resolver problemas ambientais, políticos e econômicos. Que tal agora você também se envolver em uma comunidade e apoiar um projeto para ajudar salvar o mundo?</p>
+<p>Assim, o Precious Plastic se destaca por entregar nas mãos das pessoas a possibilidade de reciclar seu próprio lixo e ainda gerar uma nova fonte de renda ao se vender os novos produtos gerados ao fim do processo de reciclagem. Iniciativas como essas mostram o poder da colaboração que a Internet proporciona, e como a tecnologia pode resolver problemas ambientais, políticos e econômicos. Que tal agora você também se envolver em uma comunidade e apoiar um projeto para ajudar salvar o mundo?</p>
 ]]></content>
   </entry>
   

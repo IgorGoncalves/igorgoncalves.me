@@ -1,27 +1,25 @@
 {% capture root_url %}{{ site.root | strip_slash }}{% endcapture %} {% include head.html %}
 
 <body {% if page.body_id %} id="{{ page.body_id }}" {% endif %} {% if page.sidebar==false %} class="no-sidebar" {% endif %} {% if page.sidebar=='collapse' or site.sidebar=='collapse' %} class="collapse-sidebar sidebar-footer" {% endif %} >
-    <div class="container">
-       <div class="row">
-        <div class="col l3  side-nav fixed side">
-            <div class=" ">
-                {% include asides/bios.html %}
-            </div>
-        </div>
 
-        <div class="col l12 s12 offset-l2">
-            <main>
+<div class="row">
+    <div class="col l9 s12 offset-l3">
+        <main>
+            {{ content | expand_urls: root_url }}
+        </main>
+    </div>
+</div>
 
-                {{ content | expand_urls: root_url }}
-            </main>
-        </div>
+<div class="row">
+    <div class="col l3  side-nav fixed side">
+        {% include asides/bios.html %}
     </div>
-    <div class="row">
-    <div class="col s12 m12 side-mobile hide-on-large-only">
-            <div class=" ">
-                {% include asides/bios.html %}
-            </div>
+    <div class="side-mobile">
+    <div class="col m12 s12 offset-l12 side-mobile" >
+        {% include asides/bios-mobile.html %}
+
     </div>
+</div>
 </div>
 
 
@@ -29,7 +27,7 @@
 
 
 
-</div>
+
 
 </body>
 
