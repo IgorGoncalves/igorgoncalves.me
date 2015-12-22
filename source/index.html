@@ -6,60 +6,58 @@ layout: default
   {% assign index = true %}
   {% for post in site.posts %}
 
-   <div class="row">
-<div class="col m12">
-    <div class="card hoverable">
-        {% if index %}
-        {% if post.colour %}
-        <a href="{{ root_url }}{{ post.url }}">
-        <div class="card-image  waves-effect waves-block waves-light">
-           <!-- <img class="activator responsive-img image-post" src="{{ post.img }}">-->
-        <div class="banner-post" style="background-color: #{{ post.colour }};  !important;">
-        </div>
-            <span class="card-title">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="post">
+          {% if index %}
+          {% if post.colour %}
+
+            <div class="banner-post" style="background-color: #{{ post.colour }};  !important;">
+
+            <div class="post-title">
+              <a href="{{ root_url }}{{ post.url }}">
                 <h4>
-                {% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}
+                  {% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}
                 </h4>
-            </span>
-        </div>
-        </a>
-        {% else %}
+              </a>
+            </div>
+            </div>
 
-        <span class="card-title">
-                <h4 class="entry-title">
+
+          {% else %}
+
+            <div class="post-title">
+              <h4 class="entry-title">
                 <a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a>
-                </h4>
-            </span>
-        {% endif %}
+              </h4>
+            </div>
+          {% endif %}
 
+          {% else %}
+          <h1 class="entry-title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
+          {% unless page.meta == false %}
+        <p class="meta">
+          {% include post/date.html %}{{ time }}
+          {% if site.disqus_short_name and page.comments != false and post.comments != false and site.disqus_show_comment_count == true %}
+             | <a href="{% if index %}{{ root_url }}{{ post.url }}{% endif %}#disqus_thread"
+               data-disqus-identifier="{% if post.meta.disqus_id %}{{ post.meta.disqus_id }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">Comments</a>
+          {% endif %}
+        </p>
+      {% endunless %}
+      {% endif %}
 
-        {% else %}
-                      <h1 class="entry-title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
-                         {% unless page.meta == false %}
-      <p class="meta">
-        {% include post/date.html %}{{ time }}
-        {% if site.disqus_short_name and page.comments != false and post.comments != false and site.disqus_show_comment_count == true %}
-           | <a href="{% if index %}{{ root_url }}{{ post.url }}{% endif %}#disqus_thread"
-             data-disqus-identifier="{% if post.meta.disqus_id %}{{ post.meta.disqus_id }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">Comments</a>
-        {% endif %}
-      </p>
-    {% endunless %}
-
-                    {% endif %}
-
-
-            <div class="card-content">
+            <div class="post-content">
               <p> {{ post.content | split:'<!--break-->' | first }}<br></p>
             </div>
-            <div class="card-action">
-              <a href="#"><a href="{{ post.url }}">Read more...</a></a>
+            <hr>
+            <div class="post-action">
+              <a href="{{ post.url }}">
+                <p class="text-center"><i class="fa fa-plus-circle"></i> Ler Mais </p>
+             </a>
             </div>
           </div>
         </div>
       </div>
-
-
-
 
 {% endfor %}
 
@@ -73,5 +71,3 @@ layout: default
     {% endif %}
   </div>
 </div>
-
-

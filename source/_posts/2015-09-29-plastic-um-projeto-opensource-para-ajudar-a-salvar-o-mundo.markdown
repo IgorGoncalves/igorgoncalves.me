@@ -18,7 +18,7 @@ Durante minha busca por projetos inovadores que têm o intuito de resolver algum
 
 A ideia surgiu após a analise do clico de vida do plástico. Atualmente, após o descarte dos produtos, [cerca de 80% dos plásticos não chegam aos centros de reciclagem](http://www.mma.gov.br/destaques/item/9411), 10% é incinerado e apenas 10% se tornam novos produtos. A falta de centros de reciclagem e uma fraca cultura de coleta seletiva são alguns dos principais problemas nessa cadeia fábrica-mercado-consumidor-reciclagem.
 
-{% img responsive-img http://www.preciousplastic.com/site/wp-content/uploads/2014/05/plastic_infrastructure-1200x679.jpg "Ciclo de vida do plástico (*font: preciousplastic.com*)" %}
+{% img img-responsive center-block http://www.preciousplastic.com/site/wp-content/uploads/2014/05/plastic_infrastructure-1200x679.jpg "Ciclo de vida do plástico (*font: preciousplastic.com*)" %}
 
 <!--break-->
 
