@@ -19,7 +19,7 @@ Nosso país pode ostentar o estandarte de estar entre um dos países mais ricos 
 <br>
 <i class="fa fa-facebook-official"></i> [Página Oficial](https://www.facebook.com/guerreirosfolcloricos/)
 
-{% img img-responsive center-block https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xtp1/v/t1.0-9/11703187_1538587449697131_2102168549000527501_n.jpg?oh=3633d7ed38a71f2f341640290cc461be&oe=56DBDF25&__gda__=1458108419_3a0f9b7351bba55dec25c4b449c662e1 %}
+{% img img-responsive center-block /images/guerreirosFolcloricos.jpg %}
 
 <br><!--break-->
 
